@@ -9,9 +9,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(this, "Hello World0", Toast.LENGTH_SHORT).show()
         Toast.makeText(this, "Hello World1", Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, "Hello World2", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Hello World2", Toast.LENGTH_SHORT).show()
         Toast.makeText(this, "Hello World3", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Hello World4", Toast.LENGTH_LONG).show()
     }
 }
