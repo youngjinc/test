@@ -1,7 +1,7 @@
 package org.sopt.test
 
 import android.os.Bundle
-import android.widget.Toast
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(this, "Hello World", Toast.LENGTH_LONG)
+        Log.d(this::class.java.simpleName, "Hello")
     }
 }
